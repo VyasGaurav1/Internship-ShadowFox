@@ -1,0 +1,26 @@
+services:
+  api:
+    build: .
+    image: production-rag-assistant:latest
+    container_name: rag-api
+    ports:
+      - "8000:8000"
+    environment:
+      LLM_PROVIDER: mock
+      EMBEDDING_PROVIDER: hashing
+    restart: unless-stopped
+
+  ui:
+    build: .
+    image: production-rag-assistant:latest
+    container_name: rag-ui
+    depends_on:
+      - api
+    ports:
+      - "8501:8501"
+    environment:
+      RAG_API_URL: http://api:8000
+      LLM_PROVIDER: mock
+      EMBEDDING_PROVIDER: hashing
+    command: ["streamlit", "run", "ui/streamlit_app.py", "--server.port", "8501", "--server.address", "0.0.0.0"]
+    restart: unless-stopped

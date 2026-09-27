@@ -1,0 +1,9 @@
+# Optional upgrades for the Production RAG Assistant.
+# The stack runs WITHOUT these and falls back automatically:
+#   * no sentence-transformers -> offline hashing embedder
+# (faiss-cpu and numpy are already required in requirements.txt.)
+#
+# Install with:  pip install -r requirements-optional.txt
+
+# Real semantic embeddings (pulls PyTorch; a large download):
+sentence-transformers>=2.2

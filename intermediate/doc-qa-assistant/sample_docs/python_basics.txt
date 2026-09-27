@@ -1,0 +1,18 @@
+# Python Basics - Study Notes
+
+Python is a high-level, interpreted programming language known for readable syntax.
+A variable is a name that refers to a value stored in memory.
+
+A list is an ordered, mutable collection written with square brackets, e.g. `[1, 2, 3]`.
+A tuple is an ordered, immutable collection written with parentheses, e.g. `(1, 2, 3)`.
+A dictionary is a mutable mapping of unique keys to values, written with curly braces.
+
+A list comprehension is a concise way to build a list from an iterable, for example
+`[n * n for n in range(5)]` produces the squares of 0 to 4.
+
+A function is defined with the `def` keyword and groups reusable logic.
+A decorator is a function that wraps another function to extend its behaviour without
+changing its source code.
+
+Exceptions are raised with `raise` and handled with `try` / `except`.
+A generator yields values lazily using the `yield` keyword, which saves memory on large data.

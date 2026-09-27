@@ -1,0 +1,8 @@
+streamlit>=1.36
+requests>=2.31
+pypdf>=4.0
+python-dotenv>=1.0
+pytest>=8.0
+
+# Optional upgrades live in requirements-optional.txt
+# (faiss-cpu / numpy / sentence-transformers - the app falls back without them).

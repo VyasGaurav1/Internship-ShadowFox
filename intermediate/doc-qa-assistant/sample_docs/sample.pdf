@@ -1,0 +1,50 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 523 >>
+stream
+BT
+/F1 11 Tf
+54 742 Td
+(Alpha-9 Experiment - Calibration Notes) Tj
+0 -18 Td
+() Tj
+0 -18 Td
+(Zorblax is a fictional calibration unit used only in the Alpha-9 experiment.) Tj
+0 -18 Td
+(The Alpha-9 experiment measures thermal drift in the Orbital Loom device.) Tj
+0 -18 Td
+(A Zorblax reading above 40 indicates the Orbital Loom needs recalibration.) Tj
+0 -18 Td
+(Calibration is performed by the Qarn tool every 500 cycles.) Tj
+0 -18 Td
+() Tj
+0 -18 Td
+(Safety: never exceed a Zorblax reading of 65 during live operation.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000815 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+885
+%%EOF

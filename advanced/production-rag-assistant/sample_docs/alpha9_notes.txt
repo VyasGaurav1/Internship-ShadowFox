@@ -1,0 +1,11 @@
+ALPHA-9 CALIBRATION HANDBOOK
+============================
+
+Zorblax is a fictional calibration unit used only in the Alpha-9 experiment.
+The Alpha-9 experiment measures thermal drift in the Orbital Loom device.
+A Zorblax reading above 40 indicates the Orbital Loom needs recalibration.
+Calibration is performed by the Qarn tool every 500 cycles.
+Safety: never exceed a Zorblax reading of 65 during live operation.
+
+If a Zorblax reading stays above 55 for more than ten cycles, shut the Orbital
+Loom down and escalate to the calibration lead.

@@ -1,0 +1,13 @@
+# Optional upgrades for DocuAsk.
+# The app runs WITHOUT these and falls back automatically:
+#   * no sentence-transformers -> offline hashing embedder
+#   * no faiss / numpy         -> dependency-free cosine vector store
+#
+# Install with:  pip install -r requirements-optional.txt
+
+# Real semantic embeddings (pulls PyTorch; a large download):
+sentence-transformers>=2.2
+
+# Faster exact vector search for larger corpora:
+faiss-cpu>=1.7.4
+numpy>=1.26

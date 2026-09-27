@@ -1,0 +1,20 @@
+# --- core API ---
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.5
+python-multipart>=0.0.9
+
+# --- RAG pipeline ---
+langgraph>=0.2
+numpy>=1.26
+faiss-cpu>=1.7.4          # optional: install fails on some platforms -> cosine fallback is used
+pypdf>=4.0
+requests>=2.31
+python-dotenv>=1.0
+
+# --- UI ---
+streamlit>=1.36
+
+# --- tests ---
+pytest>=8.0
+httpx>=0.27
